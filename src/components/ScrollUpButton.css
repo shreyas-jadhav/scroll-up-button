@@ -1,0 +1,36 @@
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ html {
+    scroll-behavior: smooth;
+  }
+.scrollUpButtonCSS {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    
+    margin: 10px;
+    box-shadow: 0 10px 9px rgba(0,0,0,0.35);
+    background-color: #4078c0;
+    color: white;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 300ms;
+    animation-duration: 300ms;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    
+}
+
+svg {
+    height: 35px;
+    width: 35px;
+}
